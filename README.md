@@ -1,9 +1,15 @@
-# Customer Behavior Analysis Using Python, SQL & Power BI
+# Customer Behavior Analysis using Python, PostgreSQL & Power BI
 
-## Project Overview
-This project analyzes customer behavior and churn patterns using Python, PostgreSQL, and Power BI. The objective is to identify customer trends, understand churn behavior, and provide business insights through interactive dashboards.
+## Overview
+
+This project analyzes customer behavior and churn patterns using Python, PostgreSQL, and Power BI. The objective is to identify customer trends, understand churn behavior, and generate actionable business insights.
+
+## Business Problem
+
+Customer churn significantly affects business growth and profitability. Understanding customer behavior helps organizations improve customer retention and optimize business strategies.
 
 ## Tools & Technologies
+
 - Python
 - Pandas
 - NumPy
@@ -15,49 +21,73 @@ This project analyzes customer behavior and churn patterns using Python, Postgre
 
 ## Project Workflow
 
-### 1. Data Collection
-- Imported customer dataset into Python.
+1. Data Collection
+2. Data Cleaning & Preprocessing
+3. PostgreSQL Database Integration
+4. SQL-Based Analysis
+5. Exploratory Data Analysis (EDA)
+6. Dashboard Development
+7. Business Insights Generation
 
-### 2. Data Cleaning & Preprocessing
-- Handled missing values.
-- Removed duplicates.
-- Converted data types.
-- Performed feature engineering.
+## SQL Analysis
 
-### 3. SQL Database Integration
-- Created PostgreSQL database.
-- Loaded cleaned data using SQLAlchemy.
-- Executed SQL queries for analysis.
+Performed SQL queries to:
 
-### 4. Exploratory Data Analysis
-- Customer demographics analysis.
-- Spending behavior analysis.
-- Churn analysis.
-- Correlation analysis.
+- Calculate churn rates
+- Analyze customer demographics
+- Segment customer groups
+- Generate business KPIs
+- Identify churn patterns
 
-### 5. Power BI Dashboard
-- KPI Cards
+## Dashboard Features
+
+- Total Customers
+- Churn Rate
 - Customer Segmentation
-- Churn Analysis
-- Revenue Insights
-- Interactive Filters
+- Revenue Analysis
+- Contract Type Analysis
+- Gender Distribution
+- Customer Retention Insights
 
-### 6. Business Insights
-- Identified high-risk churn customers.
-- Found important factors influencing churn.
-- Suggested customer retention strategies.
+## Key Insights
 
-## Project Files
+- Customers with month-to-month contracts showed higher churn.
+- Long-tenure customers had better retention rates.
+- Certain customer segments were more likely to churn.
+- Customer demographics influenced retention behavior.
+
+## Files Included
+
 - app.py
+- sql_queries.sql
 - customer_churn_data.csv
 - customer_behavior_dashboard.pbix
+- Dashboard.png
 
 ## Skills Demonstrated
+
+### Technical Skills
+
 - Python Programming
 - SQL Querying
-- Database Management
+- PostgreSQL
 - Data Cleaning
-- EDA
-- Data Visualization
-- Power BI Dashboard Development
-- Business Analytics
+- Exploratory Data Analysis
+- Dashboard Development
+
+### Analytical Skills
+
+- Customer Churn Analysis
+- Customer Segmentation
+- KPI Analysis
+- Business Intelligence
+- Data-Driven Decision Making
+
+## Dashboard Preview
+
+![Dashboard](Dashboard.png)
+
+## Author
+
+Thaniska B
+Aspiring Data Analyst | Python | SQL | Power BI | PostgreSQL
